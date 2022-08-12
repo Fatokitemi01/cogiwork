@@ -3468,7 +3468,7 @@ div#wrapper.open > .offcanvas-mask {
 }
 /*------------------- 4.5 Preloader -------------------*/
 #preloader {
-  background: #fa360a url('img/preloader.png') no-repeat scroll center center;
+  background: #00FF00 url('img/preloader.png') no-repeat scroll center center;
   height: 100%;
   left: 0;
   overflow: visible;
@@ -8835,7 +8835,7 @@ div#wrapper.open > .offcanvas-mask {
 }
 .financo-activities-box1:hover .item-button .item-btn:after {
   width: 100%;
-  background-color: #fa360a;
+  background-color: #4169a3;
 }
 .financo-activities-box1:hover .item-button .item-btn span {
   visibility: visible;
@@ -8852,6 +8852,27 @@ div#wrapper.open > .offcanvas-mask {
   visibility: hidden;
   opacity: 0;
   transition: all 0.3s ease-in-out;
+}
+.buttonnew{
+  
+    background-color:#f93609; /* Green */
+    border: none;
+    color: #fff;
+    padding: 10px 17px;
+    padding-left:20px ;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:12px;
+    margin-bottom:30px;
+    
+  
+}
+.buttonnew:hover {
+  background-color: #ffffff;
+  color:black;
 }
 .financo-activities-box1 .item-img {
   position: absolute;
@@ -8902,7 +8923,7 @@ div#wrapper.open > .offcanvas-mask {
   content: "";
   width: 36%;
   height: 100%;
-  background-color: #4169a3;;
+  background-color: #4169a3;
   border-radius: 30px;
   position: absolute;
   top: 50%;
