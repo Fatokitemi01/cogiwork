@@ -3468,7 +3468,7 @@ div#wrapper.open > .offcanvas-mask {
 }
 /*------------------- 4.5 Preloader -------------------*/
 #preloader {
-  background: #00FF00 url('img/preloader.png') no-repeat scroll center center;
+  background: #ffffff url('img/preloader.png') no-repeat scroll center center;
   height: 100%;
   left: 0;
   overflow: visible;
