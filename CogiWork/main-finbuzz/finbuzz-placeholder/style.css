@@ -2481,7 +2481,7 @@ nav.template-main-menu > ul > li > a {
   font-weight: 700;
   line-height: 1;
   display: block;
-  color: #000000;
+  color: #4169a3;
   text-transform: uppercase;
   font-family: 'Barlow', sans-serif;
   position: relative;
@@ -2498,7 +2498,7 @@ nav.template-main-menu > ul > li > a:last-child:after {
   display: none;
 }
 nav.template-main-menu > ul > li > a.active:after {
-  color: #fa360a;
+  color: #cd3539;
 }
 nav.template-main-menu2 > ul > li > a {
   font-size: 15px;
@@ -2560,6 +2560,13 @@ nav.template-main-menu > ul > li ul.dropdown-menu-col-1 {
 nav.template-main-menu > ul > li ul.dropdown-menu-col-1 li {
   position: relative;
 }
+a:hover {
+  background-color: #cd3539;
+}
+#video:hover{
+  background-color: #cd3539;
+}
+
 nav.template-main-menu > ul > li ul.dropdown-menu-col-1 li a {
   position: relative;
   font-size: 15px;
@@ -3069,7 +3076,7 @@ nav.template-main-menu > ul > li:hover .template-mega-menu {
 .topbar-right .header-right-button .header-btn {
   display: block;
   color: #fff;
-  background-image: linear-gradient(to right, #ff5e17, #fa360a);
+  background-image: linear-gradient(to right, #cd3539, #cd3539);
   font-size: 16px;
   padding: 10px 30px;
   border: none;
@@ -3131,7 +3138,7 @@ nav.template-main-menu > ul > li:hover .template-mega-menu {
 .topbar-right2 ul .header-right-button .header-btn {
   display: block;
   color: #fff;
-  background-image: linear-gradient(to right, #ff5e17, #fa360a);
+  background-image: linear-gradient(to right, #cd3539, #cd3539);
   font-size: 16px;
   font-weight: 500;
   padding: 13px 25px 10px 25px;
@@ -4401,7 +4408,7 @@ div#wrapper.open > .offcanvas-mask {
 /*------------------- 5.2 About-finnaco -------------------*/
 .about-finnaco-wrap1 {
   position: relative;
-  background-color: #f8f8f8;
+  background-color: #4169a3;
   padding: 400px 0px 0px 0px;
 }
 @media only screen and (max-width: 1199px) {
@@ -6736,13 +6743,16 @@ div#wrapper.open > .offcanvas-mask {
   }
 }
 .call-back-box1 {
-  background-color: #1a1a1a;
+  background-color: #4169a3;
   padding: 52px 60px 61px 60px;
 }
 @media only screen and (max-width: 1199px) {
   .call-back-box1 {
     padding: 5px 10px 10px 10px;
   }
+}
+.change{
+   background-color:#4169a3;
 }
 @media only screen and (max-width: 991px) {
   .call-back-box1 {
@@ -8855,7 +8865,7 @@ div#wrapper.open > .offcanvas-mask {
 }
 .buttonnew{
   
-    background-color:#f93609; /* Green */
+    background-color:#cd3539; /* Green */
     border: none;
     color: #fff;
     padding: 10px 17px;
