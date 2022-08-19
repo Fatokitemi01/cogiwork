@@ -201,6 +201,9 @@ h2.title-bar:before {
   bottom: -10px;
   left: 0;
 }
+li:hover{
+    background-color: white;
+}
 /***********************************************************************/
 .header-area {
   text-align: center;
