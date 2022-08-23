@@ -3082,6 +3082,10 @@ nav.template-main-menu > ul > li:hover .template-mega-menu {
   display: inline-block;
   padding: 10px;
 }
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
 
 .topbar-right ul .topbar-social a {
   color: #636363;
@@ -3093,7 +3097,7 @@ nav.template-main-menu > ul > li:hover .template-mega-menu {
   margin-right: 0;
 }
 .topbar-right ul .topbar-social a:hover {
-  color: #fa360a;
+  color: #fff;
 }
 .topbar-right .header-right-button {
   padding-left: 25px;
@@ -3306,7 +3310,9 @@ div#wrapper.open > .offcanvas-mask {
   display: block;
 }
 .mean-container .mean-bar a.logo-mobile-menu {
-  width: 100%;
+  width: 0%;
+  height: auto;
+  max-width: 300%;
   background-color: rgba(222, 222, 222, 0.95);
   box-sizing: border-box;
 }
